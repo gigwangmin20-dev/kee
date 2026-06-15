@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON Studio - 디지털 창작 공간</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="neon-text">기광민의</span>
+                <span class="logo-subtitle">야구 팀 고르기</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">홈</a></li>
+                <li><a href="portfolio.html">팀 소개</a></li>
+                <li><a href="ktwiz.html">KTWIZ</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="neon-text neon-white">KBO</span>
+                <span>입문팀선택하기</span>
+            </h1>
+            <p class="hero-subtitle">당신의 첫 번째 KBO 야구 팀을 선택해보세요!</p>
+            <button class="cta-button" id="ctaButton" onclick="window.location.href='test.html'">시작하기</button>
+        </div>
+        <div class="hero-animation">
+            <div class="neon-box">
+                <img src=".vscode/다운로드.jpg" alt="야구팀" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- 특징 섹션 -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">OUR FEATURES</h2>
+            <div class="features-grid">
+                <div class="feature-card" onclick="toggleFeature(this)">
+                    <div class="feature-icon">✦</div>
+                    <h3>야구 입문을 위한 당신을 위한 사이트에요</h3>
+
+                </div>
+                <div class="feature-card" onclick="toggleFeature(this)">
+                    <div class="feature-icon">◆</div>
+                    <h3>KBO에는 10개의 팀이 있습니다</h3>
+                </div>
+                <div class="feature-card" onclick="toggleFeature(this)">
+                    <div class="feature-icon">★</div>
+                    <h3>당신의 최애팀을 선택하세요</h3>
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NEON Studio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">F</a>
+                <a href="#" class="social-icon">T</a>
+                <a href="#" class="social-icon">I</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
